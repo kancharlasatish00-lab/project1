@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Tasty Bites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html">🍕 Tasty Bites</a>
+      <a class="back-link" href="index.html">← Back to Home</a>
+    </nav>
+  </header>
+  <main class="auth-main">
+    <form class="auth-card" id="loginForm">
+      <div class="auth-emoji" aria-hidden="true">👋</div>
+      <p class="eyebrow">WELCOME BACK</p>
+      <h1>Login</h1>
+      <p class="muted">Enter your details to continue.</p>
+      <label for="loginEmail">Email address</label>
+      <input id="loginEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+      <label for="loginPassword">Password</label>
+      <input id="loginPassword" name="password" type="password" autocomplete="current-password" placeholder="Enter password" required>
+      <div class="auth-options"><label class="checkbox-label"><input type="checkbox" id="rememberMe"> Remember me</label><a href="#" id="forgotPassword">Forgot password?</a></div>
+      <button class="button full-width" type="submit">Login</button>
+      <p class="form-message" id="loginStatus" role="status"></p>
+      <p class="auth-switch">Don't have an account? <a href="register.html">Register here</a></p>
+      <p class="demo-warning">Demo only: this page does not authenticate users or connect to a database.</p>
+    </form>
+  </main>
+  <footer class="site-footer"><p>© 2026 Tasty Bites. Student project demo.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

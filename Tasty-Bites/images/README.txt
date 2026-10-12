@@ -1,0 +1,1 @@
+Optional images folder. Add your own food images here if you want to replace the emoji illustrations. Update index.html or style.css to reference the image filenames. No image files are required for the current project.
